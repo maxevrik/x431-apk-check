@@ -5,7 +5,7 @@ on:
       - '.github/workflows/inspect-apk.yml'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   inspect:
     runs-on: ubuntu-latest
